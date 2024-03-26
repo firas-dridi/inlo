@@ -13,8 +13,6 @@ class Wallet(object):
     def __init__(self, initial_amount=0):
         self.balance = initial_amount
 		
-	def get_balance(self):
-        return self.balance
 
     def spend_cash(self, amount, deferred=False):
         """Removes the specified amount of money from the current Wallet object"""
